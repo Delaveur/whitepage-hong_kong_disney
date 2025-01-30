@@ -6,7 +6,7 @@
     <meta name="description" content="Explore the magic of Hong Kong Disneyland. Book tickets, hotel stays, and more.">
     <meta name="keywords" content="Hong Kong Disneyland, theme park, tickets, attractions, hotels">
     <meta name="author" content="Disney">
-    <title>Hong Kong Disneyland</title>
+    <title>Hong Kong Disneyland Railroad</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -20,10 +20,10 @@
     <div class="bg-purple-700 text-white py-2 text-center">
         <nav>
             <ul class="flex justify-center space-x-6">
-                <li><a href="#" class="hover:underline">Home</a></li>
-                <li><a href="#" class="hover:underline">Tickets</a></li>
-                <li><a href="#" class="hover:underline">Hotels</a></li>
-                <li><a href="#" class="hover:underline">Attractions</a></li>
+                <li><a href="/" class="hover:underline">Home</a></li>
+                <li><a href="/new-day-calendar/" class="hover:underline">Calendar</a></li>
+                <li><a href="/hotels/hong-kong-disneyland-hotel/" class="hover:underline">Hotel</a></li>
+                <li><a href="/contact-us/" class="hover:underline">Contact us</a></li>
             </ul>
         </nav>
     </div>
@@ -32,19 +32,21 @@
         <button class="absolute right-4 top-4 lg:hidden" onclick="toggleMenu()">☰</button>
         <nav class="hidden lg:block mt-2">
             <ul class="flex justify-center space-x-6">
-                <li><a href="#" class="hover:underline">About</a></li>
-                <li><a href="#" class="hover:underline">Plan Your Visit</a></li>
-                <li><a href="#" class="hover:underline">Events</a></li>
-                <li><a href="#" class="hover:underline">Contact</a></li>
+                <li><a href="/calendars/day/#/theme-park/" class="hover:underline">Day view</a></li>
+                <li><a href="/offers-discounts/" class="hover:underline">Offers</a></li>
+                <li><a href="/destinations/theme-park/" class="hover:underline">Theme park</a></li>
+                <li><a href="/railroad/" class="hover:underline">Railroad</a></li>
+                <li><a href="/sliding/" class="hover:underline">Sliding Sleighs</a></li>
             </ul>
         </nav>
     </div>
     <div id="mobile-menu" class="hidden bg-blue-600 text-white p-4 lg:hidden">
         <ul>
-            <li><a href="#" class="block py-2 hover:underline">About</a></li>
-            <li><a href="#" class="block py-2 hover:underline">Plan Your Visit</a></li>
-            <li><a href="#" class="block py-2 hover:underline">Events</a></li>
-            <li><a href="#" class="block py-2 hover:underline">Contact</a></li>
+            <li><a href="/calendars/day/#/theme-park/" class="block py-2 hover:underline">Day view</a></li>
+            <li><a href="/offers-discounts/" class="block py-2 hover:underline">Offers</a></li>
+            <li><a href="/destinations/theme-park/" class="block py-2 hover:underline">Theme park</a></li>
+            <li><a href="/railroad/" class="block py-2 hover:underline">Railroad</a></li>
+            <li><a href="/sliding/" class="block py-2 hover:underline">Sliding Sleighs</a></li>
         </ul>
     </div>
     <section class="container mx-auto min-h-[764px] p-4">
