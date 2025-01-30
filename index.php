@@ -42,10 +42,11 @@
     </div>
     <div id="mobile-menu" class="hidden bg-blue-600 text-white p-4 lg:hidden">
         <ul>
-            <li><a href="#" class="block py-2 hover:underline">About</a></li>
-            <li><a href="#" class="block py-2 hover:underline">Plan Your Visit</a></li>
-            <li><a href="#" class="block py-2 hover:underline">Events</a></li>
-            <li><a href="#" class="block py-2 hover:underline">Contact</a></li>
+            <li><a href="/calendars/day/#/theme-park/" class="block py-2 hover:underline">Day view</a></li>
+            <li><a href="/offers-discounts/" class="block py-2 hover:underline">Offers</a></li>
+            <li><a href="/destinations/theme-park/" class="block py-2 hover:underline">Theme park</a></li>
+            <li><a href="/railroad/" class="block py-2 hover:underline">Railroad</a></li>
+            <li><a href="/sliding/" class="block py-2 hover:underline">Sliding Sleighs</a></li>
         </ul>
     </div>
     <section class="flex justify-center my-6">
