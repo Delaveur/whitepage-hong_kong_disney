@@ -73,9 +73,9 @@
     </section>
     <section class="grid grid-cols-3 gap-0 mt-6">
         <a href="#" class="col-span-2 overflow-hidden h-96"><img src="/upload/main-4.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
-        <a href="#" class="col-span-1 overflow-hidden h-96"><img src="/upload/main-5.jpg" class="w-full h-full object-cover hover:opacity-80 transition"></a>
-        <a href="#" class="col-span-1 overflow-hidden h-80"><img src="/upload/main-6.jpg" class="w-full h-full object-cover hover:opacity-80 transition"></a>
-        <a href="#" class="col-span-1 overflow-hidden h-80"><img src="/upload/main-7.jpg" class="w-full h-full object-cover hover:opacity-80 transition"></a>
+        <a href="#" class="col-span-1 overflow-hidden h-96"><img src="/upload/roller.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
+        <a href="#" class="col-span-1 overflow-hidden h-80"><img src="/upload/railroad.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
+        <a href="#" class="col-span-1 overflow-hidden h-80"><img src="/upload/disney-park.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
         <a href="#" class="col-span-1 overflow-hidden h-80"><img src="/upload/main-8.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
     </section>
     <!-- Contact Form Section -->
