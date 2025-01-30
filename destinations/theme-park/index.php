@@ -48,41 +48,53 @@
         </ul>
     </div>
     <section class="container mx-auto min-h-[764px] p-4">
-        <h1 class="text-3xl font-bold mb-4">Hong Kong Disneyland Park</h1>
-        <p>Hong Kong Disneyland Park is a magical theme park located on Lantau Island, offering world-class attractions, thrilling rides, and unforgettable experiences for visitors of all ages.</p>
+    <div class="overflow-hidden h-[400px]">
+        <img src="/upload/disney-park.png" alt="Hong Kong Disneyland Park" class="w-full h-full object-cover">
+    </div>
+        <h1 class="text-3xl font-bold mt-4">Hong Kong Disneyland Park</h1>
+        <p class="mt-2">Step into a world of wonder at Hong Kong Disneyland Park, where dreams come to life through thrilling attractions, enchanting entertainment, and immersive storytelling. Located on Lantau Island, this magical destination offers unforgettable experiences for visitors of all ages.</p>
 
-        <h2 class="text-2xl font-bold mt-6 mb-2">Park Overview</h2>
-        <p>Opened in 2005, Hong Kong Disneyland Park features seven themed lands, each providing unique adventures and entertainment:</p>
+        <h2 class="text-2xl font-bold mt-6 mb-2 text-blue-800">Themed Lands</h2>
+        <p>Hong Kong Disneyland Park features seven uniquely themed lands, each designed to transport guests into a different world of adventure and fantasy:</p>
         <ul class="list-disc list-inside mt-4">
-            <li>Main Street, U.S.A. – A nostalgic recreation of early 20th-century America.</li>
-            <li>Fantasyland – The home of classic Disney characters and fairy tale magic.</li>
-            <li>Adventureland – A jungle-themed area with thrilling rides and shows.</li>
-            <li>Tomorrowland – A futuristic world filled with high-tech attractions.</li>
-            <li>Grizzly Gulch – A Wild West-themed land with a runaway mine train ride.</li>
-            <li>Mystic Point – A mysterious land with an award-winning dark ride.</li>
-            <li>Toy Story Land – Inspired by Pixar’s Toy Story movies, featuring fun rides.</li>
+            <li><strong>Main Street, U.S.A.</strong> – A nostalgic recreation of a classic American town, lined with charming shops and restaurants.</li>
+            <li><strong>Adventureland</strong> – A jungle paradise filled with thrilling expeditions and breathtaking performances.</li>
+            <li><strong>Fantasyland</strong> – The heart of Disney magic, where fairy tales come to life with iconic attractions like the Cinderella Carousel.</li>
+            <li><strong>Tomorrowland</strong> – A futuristic realm featuring high-speed adventures and intergalactic encounters.</li>
+            <li><strong>Grizzly Gulch</strong> – A wild west town with exciting roller coasters and hidden surprises.</li>
+            <li><strong>Mystic Point</strong> – A mysterious land of supernatural wonders and curious discoveries.</li>
+            <li><strong>Toy Story Land</strong> – A playful world where guests shrink to the size of a toy and embark on fun-filled rides.</li>
         </ul>
 
-        <h2 class="text-2xl font-bold mt-6 mb-2">Must-See Attractions</h2>
-        <p>Some of the top attractions in the park include:</p>
+        <h2 class="text-2xl font-bold mt-6 mb-2 text-blue-800">Must-See Attractions</h2>
+        <p>From high-speed roller coasters to magical boat rides, Hong Kong Disneyland Park offers a variety of attractions that cater to thrill-seekers and families alike:</p>
         <ul class="list-disc list-inside mt-4">
-            <li>Iron Man Experience – A thrilling flight simulation with Marvel’s Iron Man.</li>
-            <li>Big Grizzly Mountain Runaway Mine Cars – A roller coaster adventure.</li>
-            <li>Mystic Manor – A one-of-a-kind interactive dark ride.</li>
-            <li>It’s a Small World – A delightful boat ride celebrating global cultures.</li>
-            <li>Hyperspace Mountain – A Star Wars-themed high-speed coaster.</li>
+            <li><strong>Iron Man Experience</strong> – Join Tony Stark on a 3D flight over Hong Kong to battle Hydra.</li>
+            <li><strong>Big Grizzly Mountain Runaway Mine Cars</strong> – A wild roller coaster adventure through an abandoned mining town.</li>
+            <li><strong>Ant-Man and The Wasp: Nano Battle!</strong> – A high-tech shooting game where guests shrink to the size of an ant.</li>
+            <li><strong>It's a Small World</strong> – A delightful boat ride celebrating global unity through music and animated dolls.</li>
+            <li><strong>Mystic Manor</strong> – A spellbinding tour through a haunted museum filled with enchanted artifacts.</li>
         </ul>
 
-        <h2 class="text-2xl font-bold mt-6 mb-2">Entertainment & Parades</h2>
-        <p>Hong Kong Disneyland Park is known for its spectacular entertainment offerings, including:</p>
+        <h2 class="text-2xl font-bold mt-6 mb-2 text-blue-800">Spectacular Shows and Parades</h2>
+        <p>Immerse yourself in Disney’s storytelling with dazzling performances, from stunning parades to breathtaking fireworks displays:</p>
         <ul class="list-disc list-inside mt-4">
-            <li>Disney Paint the Night Parade – A dazzling nighttime parade with glowing floats.</li>
-            <li>Mickey and the Wondrous Book – A live stage musical with beloved Disney characters.</li>
-            <li>Momentous – A breathtaking nighttime spectacular featuring fireworks, lights, and music.</li>
+            <li><strong>Momentous Nighttime Spectacular</strong> – A mesmerizing light and fireworks show illuminating the castle.</li>
+            <li><strong>Mickey and the Wondrous Book</strong> – A live stage performance featuring beloved Disney characters and classic stories.</li>
+            <li><strong>Flights of Fantasy Parade</strong> – A colorful daytime parade featuring Mickey Mouse and friends in magical floats.</li>
         </ul>
 
-        <h2 class="text-2xl font-bold mt-6 mb-2">Dining & Shopping</h2>
-        <p>The park offers a variety of dining options, from quick snacks to fine dining experiences. Visitors can also shop for exclusive Disney merchandise at themed stores throughout the park.</p>
+        <h2 class="text-2xl font-bold mt-6 mb-2 text-blue-800">Dining and Shopping</h2>
+        <p>Indulge in delicious dining options and take home magical souvenirs from themed restaurants and shops throughout the park:</p>
+        <ul class="list-disc list-inside mt-4">
+            <li><strong>Royal Banquet Hall</strong> – A grand dining experience with a variety of international cuisines.</li>
+            <li><strong>Starliner Diner</strong> – A futuristic eatery serving American-style fast food.</li>
+            <li><strong>Merlin’s Treasures</strong> – A charming shop filled with Fantasyland-themed merchandise.</li>
+            <li><strong>Emporium</strong> – The largest store in the park, offering a wide range of Disney merchandise.</li>
+        </ul>
+
+        <h2 class="text-2xl font-bold mt-6 mb-2 text-blue-800">Plan Your Visit</h2>
+        <p>Hong Kong Disneyland Park is a place where fairy tales come to life and adventures await around every corner. Whether you're exploring its enchanting lands, enjoying thrilling rides, or meeting your favorite Disney characters, there's something magical for everyone.</p>
     </section>
 
 
