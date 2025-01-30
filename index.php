@@ -20,10 +20,10 @@
     <div class="bg-purple-700 text-white py-2 text-center">
         <nav>
             <ul class="flex justify-center space-x-6">
-                <li><a href="#" class="hover:underline">Home</a></li>
-                <li><a href="#" class="hover:underline">Tickets</a></li>
-                <li><a href="#" class="hover:underline">Hotels</a></li>
-                <li><a href="#" class="hover:underline">Attractions</a></li>
+                <li><a href="/" class="hover:underline">Home</a></li>
+                <li><a href="/new-day-calendar/" class="hover:underline">Calendar</a></li>
+                <li><a href="/hotels/hong-kong-disneyland-hotel/" class="hover:underline">Hotel</a></li>
+                <li><a href="/contact-us/" class="hover:underline">Contact us</a></li>
             </ul>
         </nav>
     </div>
@@ -32,10 +32,11 @@
         <button class="absolute right-4 top-4 lg:hidden" onclick="toggleMenu()">☰</button>
         <nav class="hidden lg:block mt-2">
             <ul class="flex justify-center space-x-6">
-                <li><a href="#" class="hover:underline">About</a></li>
-                <li><a href="#" class="hover:underline">Plan Your Visit</a></li>
-                <li><a href="#" class="hover:underline">Events</a></li>
-                <li><a href="#" class="hover:underline">Contact</a></li>
+                <li><a href="/calendars/day/#/theme-park/" class="hover:underline">Day view</a></li>
+                <li><a href="/offers-discounts/" class="hover:underline">Offers</a></li>
+                <li><a href="/destinations/theme-park/" class="hover:underline">Theme park</a></li>
+                <li><a href="/railroad/" class="hover:underline">Railroad</a></li>
+                <li><a href="/sliding/" class="hover:underline">Sliding Sleighs</a></li>
             </ul>
         </nav>
     </div>
@@ -72,11 +73,11 @@
         </div>
     </section>
     <section class="grid grid-cols-3 gap-0 mt-6">
-        <a href="#" class="col-span-2 overflow-hidden h-96"><img src="/upload/main-4.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
-        <a href="#" class="col-span-1 overflow-hidden h-96"><img src="/upload/roller.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
-        <a href="#" class="col-span-1 overflow-hidden h-80"><img src="/upload/railroad.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
-        <a href="#" class="col-span-1 overflow-hidden h-80"><img src="/upload/disney-park.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
-        <a href="#" class="col-span-1 overflow-hidden h-80"><img src="/upload/main-8.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
+        <a href="/" class="col-span-2 overflow-hidden h-96"><img src="/upload/main-4.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
+        <a href="/sliding/" class="col-span-1 overflow-hidden h-96"><img src="/upload/roller.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
+        <a href="/railroad/" class="col-span-1 overflow-hidden h-80"><img src="/upload/railroad.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
+        <a href="/destinations/theme-park/" class="col-span-1 overflow-hidden h-80"><img src="/upload/disney-park.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
+        <a href="/new-day-calendar/" class="col-span-1 overflow-hidden h-80"><img src="/upload/main-8.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
     </section>
     <!-- Contact Form Section -->
     <section id="contact" class="container mx-auto p-4">
