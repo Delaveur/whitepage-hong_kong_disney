@@ -7,6 +7,8 @@
     <meta name="keywords" content="Hong Kong Disneyland, theme park, tickets, attractions, hotels">
     <meta name="author" content="Disney">
     <title>Hong Kong Disneyland</title>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         function toggleMenu() {
