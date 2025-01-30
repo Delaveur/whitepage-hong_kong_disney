@@ -76,12 +76,51 @@
         <a href="#" class="col-span-1 overflow-hidden h-80"><img src="/upload/main-7.jpg" class="w-full h-full object-cover hover:opacity-80 transition"></a>
         <a href="#" class="col-span-1 overflow-hidden h-80"><img src="/upload/main-8.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
     </section>
+    <!-- Contact Form Section -->
+    <section id="contact" class="container mx-auto p-4">
+        <h2 class="text-3xl font-bold mb-4">Contact form</h2>
+        <form action="contact.php" method="POST" class="bg-white p-6 rounded-lg shadow-md">
+            <div class="mb-4">
+                <label for="lastName" class="block mb-2">Last Name</label>
+                <input type="text" id="lastName" name="lastName" class="w-full p-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+                <label for="firstName" class="block mb-2">First Name</label>
+                <input type="text" id="firstName" name="firstName" class="w-full p-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+                <label for="email" class="block mb-2">Email</label>
+                <input type="email" id="email" name="email" class="w-full p-2 border rounded-lg">
+            </div>
+            <div class="mb-4">
+                <label for="message" class="block mb-2">Message</label>
+                <textarea id="message" name="message" class="w-full p-2 border rounded-lg"></textarea>
+            </div>
+            <button type="submit" class="bg-blue-600 text-white py-2 px-4 rounded-lg">Send</button>
+        </form>
+    </section>
     <footer class="bg-gray-800 text-white text-center py-4 mt-6">
-        <p>&copy; 2025 Hong Kong Disneyland. All Rights Reserved.</p>
+        <p>&copy; <?php echo date("Y"); ?> Hong Kong Disneyland. All Rights Reserved.</p>
         <nav class="mt-2">
-            <a href="#" class="hover:underline mr-4">Privacy Policy</a>
-            <a href="#" class="hover:underline">Terms of Conduct</a>
+            <a href="privacy.php" class="text-blue-600 hover:underline mr-4">Privacy Policy</a>
+            <a href="terms.php" class="text-blue-600 hover:underline">Terms of Conduct</a>
         </nav>
     </footer>
+    <!-- Cookies Notice -->
+    <div id="cookie-notice" class="fixed bottom-0 left-0 w-full bg-gray-800 text-white p-4 text-center" style="display: none;">
+        <p>We use cookies to enhance your experience. By continuing, you agree to our <a href="privacy.php" class="text-blue-400 underline">Privacy Policy</a>.</p>
+        <button id="accept-cookies" class="bg-blue-500 text-white px-4 py-2 rounded mt-2">Accept</button>
+    </div>
+    <script>
+        const cookieNotice = document.getElementById('cookie-notice');
+        const acceptCookies = document.getElementById('accept-cookies');
+        if (!localStorage.getItem('cookiesAccepted')) {
+            cookieNotice.style.display = 'block';
+        }
+        acceptCookies.addEventListener('click', () => {
+        localStorage.setItem('cookiesAccepted', 'true');
+        cookieNotice.style.display = 'none';
+        });
+    </script>
 </body>
 </html>

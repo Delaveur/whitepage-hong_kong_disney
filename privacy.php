@@ -81,10 +81,10 @@
 
 
     <footer class="bg-gray-800 text-white text-center py-4 mt-6">
-        <p>&copy; 2025 Hong Kong Disneyland. All Rights Reserved.</p>
+        <p>&copy; <?php echo date("Y"); ?> Hong Kong Disneyland. All Rights Reserved.</p>
         <nav class="mt-2">
-            <a href="privacy.php" class="hover:underline mr-4">Privacy Policy</a>
-            <a href="terms.php" class="hover:underline">Terms of Conduct</a>
+            <a href="privacy.php" class="text-blue-600 hover:underline mr-4">Privacy Policy</a>
+            <a href="terms.php" class="text-blue-600 hover:underline">Terms of Conduct</a>
         </nav>
     </footer>
 </body>
