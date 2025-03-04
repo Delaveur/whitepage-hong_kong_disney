@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Explore the magic of Hong Kong Disneyland. Book tickets, hotel stays, and more.">
-    <meta name="keywords" content="Hong Kong Disneyland, theme park, tickets, attractions, hotels">
-    <meta name="author" content="Disney">
-    <title>Hong Kong Disneyland</title>
+    <meta name="description" content="Explore the magic of Entertainment park. Book tickets, hotel stays, and more.">
+    <meta name="keywords" content="Entertainment park, theme park, tickets, attractions, hotels">
+    <meta name="author" content="IT TECH SERVICES & CONSULTATION LTD">
+    <title>Entertainment park</title>
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="apple-touch-icon" href="/apple-touch-icon.png">
     <script src="https://cdn.tailwindcss.com"></script>
@@ -22,13 +22,13 @@
             <ul class="flex justify-center space-x-6">
                 <li><a href="/" class="hover:underline">Home</a></li>
                 <li><a href="/new-day-calendar/" class="hover:underline">Calendar</a></li>
-                <li><a href="/hotels/hong-kong-disneyland-hotel/" class="hover:underline">Hotel</a></li>
+                <li><a href="/hotels/park-hotel/" class="hover:underline">Hotel</a></li>
                 <li><a href="/contact-us/" class="hover:underline">Contact us</a></li>
             </ul>
         </nav>
     </div>
     <div class="bg-blue-500 text-white py-4 text-center relative">
-        <h1 class="text-2xl font-bold">Hong Kong Disneyland</h1>
+        <h1 class="text-2xl font-bold">Entertainment park</h1>
         <button class="absolute right-4 top-4 lg:hidden" onclick="toggleMenu()">☰</button>
         <nav class="hidden lg:block mt-2">
             <ul class="flex justify-center space-x-6">
@@ -57,17 +57,17 @@
     </section>
     <section class="max-w-6xl mx-auto grid grid-cols-3 gap-0 bg-white shadow-md rounded-lg">
         <div class="col-span-2 overflow-hidden h-64">
-            <img src="/upload/main-1.png" alt="Disneyland" class="w-full h-full object-cover">
+            <img src="/upload/main-1.png" alt="Entertainment park" class="w-full h-full object-cover">
         </div>
         <div class="overflow-hidden h-64">
-            <img src="/upload/main-2.png" alt="Disneyland" class="w-full h-full object-cover">
+            <img src="/upload/main-2.png" alt="Entertainment park" class="w-full h-full object-cover">
         </div>
         <div class="p-6">
-            <h2 class="text-xl font-bold">Discover the Magic of Hong Kong Disneyland</h2>
-            <p class="mt-2 text-gray-600">Experience thrilling rides, enchanting shows, and magical moments with your favorite Disney characters.</p>
+            <h2 class="text-xl font-bold">Discover the Magic of Entertainment park</h2>
+            <p class="mt-2 text-gray-600">Experience thrilling rides, enchanting shows, and magical moments with your favorite Entertainment park characters.</p>
         </div>
         <div class="overflow-hidden h-64">
-            <img src="/upload/main-3.png" alt="Disneyland" class="w-full h-full object-cover">
+            <img src="/upload/main-3.png" alt="Entertainment park" class="w-full h-full object-cover">
         </div>
         <div class="p-6">
             <p class="text-gray-600">Plan your adventure with exciting attractions and exclusive experiences.</p>
@@ -77,8 +77,8 @@
         <a href="/" class="col-span-2 overflow-hidden h-96"><img src="/upload/main-4.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
         <a href="/sliding/" class="col-span-1 overflow-hidden h-96"><img src="/upload/roller.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
         <a href="/railroad/" class="col-span-1 overflow-hidden h-80"><img src="/upload/railroad.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
-        <a href="/destinations/theme-park/" class="col-span-1 overflow-hidden h-80"><img src="/upload/disney-park.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
-        <a href="/new-day-calendar/" class="col-span-1 overflow-hidden h-80"><img src="/upload/main-8.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
+        <a href="/destinations/theme-park/" class="col-span-1 overflow-hidden h-80"><img src="/upload/park.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
+        <a href="/new-day-calendar/" class="col-span-1 overflow-hidden h-80"><img src="/upload/hotel.png" class="w-full h-full object-cover hover:opacity-80 transition"></a>
     </section>
     <!-- Contact Form Section -->
     <section id="contact" class="container mx-auto p-4">
@@ -104,7 +104,7 @@
         </form>
     </section>
     <footer class="bg-gray-800 text-white text-center py-4 mt-6">
-        <p>&copy; <?php echo date("Y"); ?> Hong Kong Disneyland. All Rights Reserved.</p>
+        <p>&copy; <?php echo date("Y"); ?> IT TECH SERVICES & CONSULTATION LTD. All Rights Reserved.</p>
         <nav class="mt-2">
             <a href="privacy.php" class="text-blue-600 hover:underline mr-4">Privacy Policy</a>
             <a href="terms.php" class="text-blue-600 hover:underline">Terms of Conduct</a>
